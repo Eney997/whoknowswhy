@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    background-image: url(/assets/RbCKrf8.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+h1 {
+    color: red;
+    font-size: 80px;
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 100px;
+    row-gap: 30px;
+    margin-top:100px;
+    transition: 2.5s;
+}
+.fbfont {
+    color: blue;
+    animation-name: fun2-anim;
+}
+.igfont{
+    color: purple;
+    animation-name: fun-anim;
+}
+.twfont {
+    color: lightblue;
+    animation-name: fun-anim;
+}
+.gtfont {
+    color: white;
+    animation-name: fun-anim;
+}
+.disfont {
+    color: blue;  
+    animation-name: fun2-anim;
+}
+
+@keyframes fun-anim {
+    from {
+        transform: translatey(100px);     
+    }
+    to {
+        transform: translatey(200px);
+    }
+}
+@keyframes fun2-anim {
+    from {
+        transform: rotatex(60deg);     
+    }
+    to {
+        transform: translatey(200px);
+    }
+}
